@@ -73,10 +73,11 @@ void LayoutComponent::paint(juce::Graphics& g)
     g.setColour(juce::Colours::gold);
     g.drawRect(rhs_areaC);
 
-    // Based on the above layout, define areas
+    // Based on the above layout, define layout of components
     area = totalArea;
     logo = lhs_areaA_top;
     model = lhs_areaA_bot;
+    outputGain = rhs_areaA;
     ratio = lhs_areaF;
     threshold = lhs_areaD;
 }

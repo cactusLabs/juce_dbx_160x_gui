@@ -4,6 +4,7 @@
 #include "ModelComponent.h"
 #include "LayoutComponent.h"
 #include "LogoComponent.h"
+#include "OutputGainComponent.h"
 #include "ThresholdComponent.h"
 #include "RatioComponent.h"
 
@@ -29,6 +30,7 @@ private:
     ModelComponent model;
     LayoutComponent layout;
     LogoComponent logo;
+    OutputGainComponent outputGain;
     RatioComponent ratio;
     ThresholdComponent threshold;
 };
