@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="umPhL6" name="juce_dbx_160x_gui" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="John Ruggles" companyCopyright="John Ruggles" companyWebsite="www.ruggleson.com">
+  <MAINGROUP id="VsFBTI" name="juce_dbx_160x_gui">
+    <GROUP id="{140401D3-1D2F-4F0E-C0B3-06CFD6299A45}" name="Source">
+      <FILE id="bFJzmD" name="ModelComponent.cpp" compile="1" resource="0"
+            file="Source/ModelComponent.cpp"/>
+      <FILE id="rp1lRp" name="ModelComponent.h" compile="0" resource="0"
+            file="Source/ModelComponent.h"/>
+      <FILE id="PwPSno" name="LayoutComponent.cpp" compile="1" resource="0"
+            file="Source/LayoutComponent.cpp"/>
+      <FILE id="AN52fl" name="LayoutComponent.h" compile="0" resource="0"
+            file="Source/LayoutComponent.h"/>
+      <FILE id="k6TAKf" name="LogoComponent.cpp" compile="1" resource="0"
+            file="Source/LogoComponent.cpp"/>
+      <FILE id="MGu1VO" name="LogoComponent.h" compile="0" resource="0" file="Source/LogoComponent.h"/>
+      <FILE id="uVMiz6" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="kZThzv" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="lLsIDi" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="juce_dbx_160x_gui"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="juce_dbx_160x_gui"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
