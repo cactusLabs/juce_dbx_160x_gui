@@ -77,6 +77,8 @@ void LayoutComponent::paint(juce::Graphics& g)
     area = totalArea;
     logo = lhs_areaA_top;
     model = lhs_areaA_bot;
+    ratio = lhs_areaF;
+    threshold = lhs_areaD;
 }
 
 void LayoutComponent::resized()

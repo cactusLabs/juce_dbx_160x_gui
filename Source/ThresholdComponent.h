@@ -1,8 +1,8 @@
 /*
   ==============================================================================
 
-    LayoutComponent.h
-    Created: 26 Nov 2023 6:25:03pm
+    ThresholdComponent.h
+    Created: 27 Nov 2023 2:13:37pm
     Author:  Ruggles
 
   ==============================================================================
@@ -15,22 +15,18 @@
 //==============================================================================
 /*
 */
-class LayoutComponent  : public juce::Component
+class ThresholdComponent  : public juce::Component
 {
 public:
-    LayoutComponent();
-    ~LayoutComponent() override;
+    ThresholdComponent();
+    ~ThresholdComponent() override;
 
     void paint (juce::Graphics&) override;
     void resized() override;
 
-    juce::Rectangle<int> area;
-    juce::Rectangle<int> logo;
-    juce::Rectangle<int> model;
-
-    juce::Rectangle<int> ratio;
-    juce::Rectangle<int> threshold;
-
 private:
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LayoutComponent)
+    juce::Slider threshold;
+
+    //==============================================================================
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (ThresholdComponent)
 };

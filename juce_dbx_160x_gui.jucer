@@ -5,6 +5,10 @@
               companyName="John Ruggles" companyCopyright="John Ruggles" companyWebsite="www.ruggleson.com">
   <MAINGROUP id="VsFBTI" name="juce_dbx_160x_gui">
     <GROUP id="{140401D3-1D2F-4F0E-C0B3-06CFD6299A45}" name="Source">
+      <FILE id="Chl6UG" name="ThresholdComponent.cpp" compile="1" resource="0"
+            file="Source/ThresholdComponent.cpp"/>
+      <FILE id="OqwSxo" name="ThresholdComponent.h" compile="0" resource="0"
+            file="Source/ThresholdComponent.h"/>
       <FILE id="bFJzmD" name="ModelComponent.cpp" compile="1" resource="0"
             file="Source/ModelComponent.cpp"/>
       <FILE id="rp1lRp" name="ModelComponent.h" compile="0" resource="0"
@@ -21,6 +25,10 @@
       <FILE id="lLsIDi" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
     </GROUP>
+    <FILE id="NrLnii" name="RatioComponent.cpp" compile="1" resource="0"
+          file="Source/RatioComponent.cpp"/>
+    <FILE id="oq0QBT" name="RatioComponent.h" compile="0" resource="0"
+          file="Source/RatioComponent.h"/>
   </MAINGROUP>
   <MODULES>
     <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>

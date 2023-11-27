@@ -1,8 +1,8 @@
 /*
   ==============================================================================
 
-    LayoutComponent.h
-    Created: 26 Nov 2023 6:25:03pm
+    RatioComponent.h
+    Created: 27 Nov 2023 3:00:00pm
     Author:  Ruggles
 
   ==============================================================================
@@ -15,22 +15,17 @@
 //==============================================================================
 /*
 */
-class LayoutComponent  : public juce::Component
+class RatioComponent  : public juce::Component
 {
 public:
-    LayoutComponent();
-    ~LayoutComponent() override;
+    RatioComponent();
+    ~RatioComponent() override;
 
     void paint (juce::Graphics&) override;
     void resized() override;
 
-    juce::Rectangle<int> area;
-    juce::Rectangle<int> logo;
-    juce::Rectangle<int> model;
-
-    juce::Rectangle<int> ratio;
-    juce::Rectangle<int> threshold;
-
 private:
-    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (LayoutComponent)
+    juce::Slider ratio;
+
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (RatioComponent)
 };

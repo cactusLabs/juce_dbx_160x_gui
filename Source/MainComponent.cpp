@@ -18,9 +18,13 @@ void MainComponent::paint (juce::Graphics& g)
     addAndMakeVisible(layout);
     addAndMakeVisible(logo);
     addAndMakeVisible(model);
+    addAndMakeVisible(ratio);
+    addAndMakeVisible(threshold);
 
     logo.setBounds(layout.logo);
     model.setBounds(layout.model);
+    ratio.setBounds(layout.ratio);
+    threshold.setBounds(layout.threshold);
 }
 
 void MainComponent::resized()
@@ -28,4 +32,6 @@ void MainComponent::resized()
     layout.setBounds(getBounds());    
     logo.setBounds(layout.logo);
     model.setBounds(layout.model);
+    ratio.setBounds(layout.ratio);
+    threshold.setBounds(layout.threshold);
 }
