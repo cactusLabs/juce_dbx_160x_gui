@@ -5,6 +5,14 @@
               companyName="John Ruggles" companyCopyright="John Ruggles" companyWebsite="www.ruggleson.com">
   <MAINGROUP id="VsFBTI" name="juce_dbx_160x_gui">
     <GROUP id="{140401D3-1D2F-4F0E-C0B3-06CFD6299A45}" name="Source">
+      <FILE id="K9E9B8" name="InOutComponent.cpp" compile="1" resource="0"
+            file="Source/InOutComponent.cpp"/>
+      <FILE id="Swglgh" name="InOutComponent.h" compile="0" resource="0"
+            file="Source/InOutComponent.h"/>
+      <FILE id="mYBWea" name="OverEasyComponent.cpp" compile="1" resource="0"
+            file="Source/OverEasyComponent.cpp"/>
+      <FILE id="Y8CEXP" name="OverEasyComponent.h" compile="0" resource="0"
+            file="Source/OverEasyComponent.h"/>
       <FILE id="xRbGOX" name="OutputGainComponent.cpp" compile="1" resource="0"
             file="Source/OutputGainComponent.cpp"/>
       <FILE id="GvBnnU" name="OutputGainComponent.h" compile="0" resource="0"
@@ -32,6 +40,10 @@
       <FILE id="kZThzv" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
       <FILE id="lLsIDi" name="MainComponent.cpp" compile="1" resource="0"
             file="Source/MainComponent.cpp"/>
+      <FILE id="Z8zWw7" name="BypassComponent.cpp" compile="1" resource="0"
+            file="Source/BypassComponent.cpp"/>
+      <FILE id="rPmINT" name="BypassComponent.h" compile="0" resource="0"
+            file="Source/BypassComponent.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>

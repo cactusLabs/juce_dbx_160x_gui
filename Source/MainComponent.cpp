@@ -19,14 +19,22 @@ void MainComponent::paint (juce::Graphics& g)
     addAndMakeVisible(logo);
     addAndMakeVisible(model);
 
-    addAndMakeVisible(outputGain);
-    addAndMakeVisible(ratio);
-    addAndMakeVisible(threshold);
-
+    layout.setBounds(getBounds());
     logo.setBounds(layout.logo);
     model.setBounds(layout.model);
 
+    // User controls...
+    addAndMakeVisible(bypass);
+    addAndMakeVisible(inOut);
+    addAndMakeVisible(outputGain);
+    addAndMakeVisible(overEasy);
+    addAndMakeVisible(ratio);
+    addAndMakeVisible(threshold);
+
+    bypass.setBounds(layout.bypass);
+    inOut.setBounds(layout.inOut);
     outputGain.setBounds(layout.outputGain);
+    overEasy.setBounds(layout.overEasy);
     ratio.setBounds(layout.ratio);
     threshold.setBounds(layout.threshold);
 }
@@ -37,7 +45,10 @@ void MainComponent::resized()
     logo.setBounds(layout.logo);
     model.setBounds(layout.model);
 
+    bypass.setBounds(layout.bypass);
+    inOut.setBounds(layout.inOut);
     outputGain.setBounds(layout.outputGain);
+    overEasy.setBounds(layout.overEasy);
     ratio.setBounds(layout.ratio);
     threshold.setBounds(layout.threshold);
 }

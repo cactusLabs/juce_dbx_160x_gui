@@ -28,7 +28,10 @@ public:
     juce::Rectangle<int> logo;
     juce::Rectangle<int> model;
 
+    juce::Rectangle<int> bypass;
+    juce::Rectangle<int> inOut;
     juce::Rectangle<int> outputGain;
+    juce::Rectangle<int> overEasy;
     juce::Rectangle<int> ratio;
     juce::Rectangle<int> threshold;
 
