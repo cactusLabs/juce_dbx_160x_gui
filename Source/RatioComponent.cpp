@@ -22,7 +22,8 @@ RatioComponent::RatioComponent()
     ratio.setValue(1); // initialisation
     ratio.setSkewFactorFromMidPoint(4); // make curve more logarithmic
 
-    ratio.setColour(juce::Slider::ColourIds::thumbColourId, juce::Colours::blue);
+    //ratio.setColour(juce::Slider::ColourIds::thumbColourId, juce::Colours::blue);
+    ratio.setLookAndFeel(&ratioLookAndFeel);
 
     ratio.setTextBoxStyle(juce::Slider::TextBoxBelow, false, 120, ratio.getTextBoxHeight());
     addAndMakeVisible(ratio);

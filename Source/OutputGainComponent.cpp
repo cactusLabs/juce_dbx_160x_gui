@@ -22,7 +22,8 @@ OutputGainComponent::OutputGainComponent()
     outputGain.setValue(0); // initialisation
     outputGain.setSkewFactorFromMidPoint(0); // make curve more logarithmic
 
-    outputGain.setColour(juce::Slider::ColourIds::thumbColourId, juce::Colours::green);
+    //outputGain.setColour(juce::Slider::ColourIds::thumbColourId, juce::Colours::green);
+    outputGain.setLookAndFeel(&outputGainLookAndFeel);
 
     outputGain.setTextBoxStyle(juce::Slider::TextBoxBelow, false, 120, outputGain.getTextBoxHeight());
     addAndMakeVisible(outputGain);
